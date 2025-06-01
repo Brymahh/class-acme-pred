@@ -2,6 +2,8 @@ pandas
 numpy
 scikit-learn
 matplotlib
+seaborn
+xgboost
 python-box==6.0.2
 pyYAML
 tqdm
