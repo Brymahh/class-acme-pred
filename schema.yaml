@@ -1,0 +1,24 @@
+COLUMNS:
+  Equipment_ID:                       int64
+  Temperature:                        float64
+  Pressure:                           float64
+  Vibration :                         float64
+  Humidity:                           float64
+  Flow_Rate:                          float64
+  Power_Consumption:                  float64
+  Oil_Level:                          float64
+  Voltage:                            float64
+  Maintenance_Type:                    object
+  Failure_Cause:                       object
+  Production_Volume:                    int64
+  Planned_Downtime_Hours:               int64
+  Shifts_Per_Day:                       int64
+  Production_Days_Per_Week:             int64
+  Installation_Date:           datetime64[ns]
+  Failure_Date:                datetime64[ns]
+  Maintenance_Date:            datetime64[ns]
+  
+
+
+TARGET_COLUMN:
+  name: Maintenance_Cost
