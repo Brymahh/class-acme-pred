@@ -10,6 +10,7 @@ COLUMNS:
   Voltage:                            float64
   Maintenance_Type:                    object
   Failure_Cause:                       object
+  Maintenance_Cost:                    float64
   Production_Volume:                    int64
   Planned_Downtime_Hours:               int64
   Shifts_Per_Day:                       int64
